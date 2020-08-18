@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <windows.h>
-#include <math.h>
 
 int main() {
 	SetConsoleOutputCP(1252);
