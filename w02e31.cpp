@@ -23,7 +23,7 @@ int main() {
 	if (result > 0) {
 		printf("Após %d dias, restará %.1f gramas de ração.", days, result);
 	} else {
-		printf("Após %d dias, faltarão %.1f gramas de ração.", days, (float)abs(result));
+		printf("Após %d dias, faltarão %.1f gramas de ração.", days, fabs(result));
 	}
 
 	return 1;
