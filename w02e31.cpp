@@ -7,7 +7,7 @@ const int days = 5;
 int main() {
 	SetConsoleOutputCP(1252);
 	
-	float weight, result, absResult;
+	float weight, result;
 	int qty1, qty2;
 	
 	printf("Qual o peso do saco de ração (kg)? ");
@@ -23,8 +23,7 @@ int main() {
 	if (result > 0) {
 		printf("Após %d dias, restará %.1f gramas de ração.", days, result);
 	} else {
-		absResult = abs(result);
-		printf("Após %d dias, faltarão %.1f gramas de ração.", days, absResult);
+		printf("Após %d dias, faltarão %.1f gramas de ração.", days, (float)abs(result));
 	}
 
 	return 1;
