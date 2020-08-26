@@ -4,7 +4,7 @@ Exercises of the 2º week of Algorithms & Programming II class, course [Analysis
 
 Exercises list at [w02exercises.pdf](w02exercises.pdf) (in Portuguese Brazil).
 
-**Update:** the professor answers are the files starting with "Lista02\_".
+**Update:** the professor answers are the files ended with "-professor".
 
 ## Serie links:
 
